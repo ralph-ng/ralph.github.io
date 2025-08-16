@@ -17,8 +17,21 @@ search: false
   background-position: center 28% !important;  /* adjust 20–45% to frame the image */
 }
 
-/* If you later add excerpt/buttons, this keeps them neat */
+/* Layout + typography */
 .layout--splash .page__hero--overlay .wrapper { 
-  text-align: left;
-  max-width: 980px;
+  text-align: left; 
+  max-width: 1080px;
 }
+.layout--splash .page__title {
+  font-size: clamp(30px, 4.6vw, 56px);
+  margin-bottom: .25rem;
+}
+.layout--splash .page__lead {
+  font-size: clamp(16px, 1.6vw, 22px);
+  line-height: 1.5;
+  opacity: .95;
+  max-width: 760px;
+}
+
+/* Buttons spacing */
+.layout--splash .btn { margin-right: .5rem; }
