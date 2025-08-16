@@ -8,23 +8,17 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+/* --- Hero sizing/cropping when H1 is hidden --- */
 .layout--splash .page__hero--overlay {
-  min-height: 420px;        /* adjust 360–520px to taste */
-  padding-top: 80px;
-  padding-bottom: 80px;
-  background-size: cover;
-  background-position: center 30%;  /* tune 20–45% to frame the image nicely */
+  min-height: 460px !important;     /* 380–520px works; tune to taste */
+  padding-top: 96px !important;
+  padding-bottom: 96px !important;
+  background-size: cover !important;
+  background-position: center 28% !important;  /* adjust 20–45% to frame the image */
 }
 
-/* Left-align content if you use excerpt/buttons */
+/* If you later add excerpt/buttons, this keeps them neat */
 .layout--splash .page__hero--overlay .wrapper { 
-  text-align: left; 
-  max-width: 980px; 
-}
-
-/* Slightly larger excerpt */
-.layout--splash .page__lead { 
-  font-size: 1.2rem; 
-  line-height: 1.5; 
-  max-width: 720px;
+  text-align: left;
+  max-width: 980px;
 }
