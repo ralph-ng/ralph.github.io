@@ -7,3 +7,9 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* --- Custom overrides (homepage hero) --- */
+.layout--splash .page__hero--overlay .page__title,
+.layout--splash h1#page-title.page__title {
+  display: none !important;
+}
