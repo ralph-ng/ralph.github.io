@@ -15,3 +15,16 @@ search: false
   background-size: cover;
   background-position: center 30%;  /* tune 20–45% to frame the image nicely */
 }
+
+/* Left-align content if you use excerpt/buttons */
+.layout--splash .page__hero--overlay .wrapper { 
+  text-align: left; 
+  max-width: 980px; 
+}
+
+/* Slightly larger excerpt */
+.layout--splash .page__lead { 
+  font-size: 1.2rem; 
+  line-height: 1.5; 
+  max-width: 720px;
+}
