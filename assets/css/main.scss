@@ -10,9 +10,9 @@ search: false
 
 /* --- Hero sizing/cropping when H1 is hidden --- */
 .layout--splash .page__hero--overlay {
-  min-height: 460px !important;     /* 380–520px works; tune to taste */
-  padding-top: 96px !important;
-  padding-bottom: 96px !important;
+  min-height: 320px !important;     /* 380–520px works; tune to taste */
+  padding-top: 56px !important;
+  padding-bottom: 56px !important;
   background-size: cover !important;
   background-position: center 28% !important;  /* adjust 20–45% to frame the image */
 }
@@ -23,15 +23,24 @@ search: false
   max-width: 1080px;
 }
 .layout--splash .page__title {
-  font-size: clamp(30px, 4.6vw, 56px);
+  font-size: clamp(26px, 4vw, 44px);
   margin-bottom: .25rem;
 }
 .layout--splash .page__lead {
-  font-size: clamp(16px, 1.6vw, 22px);
-  line-height: 1.5;
-  opacity: .95;
-  max-width: 760px;
+  font-size: clamp(15px, 1.4vw, 19px);
+  line-height: 1.45;
+  margin-bottom: 0;
 }
 
 /* Buttons spacing */
 .layout--splash .btn { margin-right: .5rem; }
+
+/* Mobile — even shorter */
+@media (max-width: 768px) {
+  .layout--splash .page__hero--overlay {
+    min-height: 220px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-position: center 32%;
+  }
+}
