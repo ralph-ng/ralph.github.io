@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "What We Offer"
-permalink: /services/
+permalink: /products/
 ---
 
 At **Evokita**, we bring the best pickleball gear and training resources to the Malaysian community — so you can play better, rally harder, and grow together.
