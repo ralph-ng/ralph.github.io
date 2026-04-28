@@ -1,0 +1,21 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer dark circle -->
+  <circle cx="32" cy="32" r="31" fill="#1a1a1a"/>
+  <!-- Orange ring -->
+  <circle cx="32" cy="32" r="29" fill="#E8541A"/>
+  <!-- Dark inner circle -->
+  <circle cx="32" cy="32" r="22" fill="#1a1a1a"/>
+  <!-- E spine -->
+  <rect x="18" y="17" width="5" height="30" rx="1" fill="#E8541A"/>
+  <!-- E top bar -->
+  <rect x="18" y="17" width="21" height="5" rx="1" fill="#E8541A"/>
+  <!-- E middle bar -->
+  <rect x="18" y="29" width="17" height="5" rx="1" fill="#E8541A"/>
+  <!-- E bottom bar -->
+  <rect x="18" y="42" width="21" height="5" rx="1" fill="#E8541A"/>
+  <!-- Pickleball dots -->
+  <circle cx="28" cy="23" r="1" fill="#1a1a1a" opacity="0.6"/>
+  <circle cx="33" cy="21" r="1" fill="#1a1a1a" opacity="0.6"/>
+  <circle cx="28" cy="45" r="1" fill="#1a1a1a" opacity="0.6"/>
+  <circle cx="33" cy="43" r="1" fill="#1a1a1a" opacity="0.6"/>
+</svg>
