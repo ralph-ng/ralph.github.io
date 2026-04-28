@@ -48,5 +48,3 @@ Browse our range of premium pickleball gear and training programmes — curated 
 | Weekend Intensive | Full day, all levels | Coming Soon |
 
 ---
-
-📧 **Enquiries:** [hello@evokita.com](mailto:hello@evokita.com)
