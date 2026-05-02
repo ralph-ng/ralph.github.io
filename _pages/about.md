@@ -26,4 +26,4 @@ We believe pickleball is better when you play it with your people. That's why we
 
 Have a question, want to join a session, or just want to talk pickleball?
 
-Reach us on Instagram [@evokita.sport](https://instagram.com/evokita.sport) or drop us an email at [hello@evokita.com](mailto:hello@evokita.com)
+Reach us on Instagram [@evokita.sport](https://instagram.com/evokita.sport) or Facebook [@evokitasport] (https://facebook.com/evokitasport)
