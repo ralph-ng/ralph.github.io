@@ -1,5 +1,7 @@
-# main links
 main:
   - title: "Shop"
     url: /shop/
-
+  - title: "Community"
+    url: /products/
+  - title: "About"
+    url: /about/
